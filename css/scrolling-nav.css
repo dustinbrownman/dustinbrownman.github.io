@@ -10,6 +10,8 @@ html {
 
 @media(min-width:767px) {
     .navbar {
+        background: rgba(0,0,0,0);
+        border-bottom: 0px;
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -31,6 +33,12 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #fff;
+    background: url(../images/portlandbw.jpg) no-repeat bottom center scroll;
+/*    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
 }
 
 .about-section {
@@ -40,8 +48,8 @@ of those sections to manage the look and feel of the site. */
     background: #eee;
 }
 
-.services-section {
-    height: 100%;
+.projects-section {
+    height: 75%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
