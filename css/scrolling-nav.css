@@ -13,6 +13,9 @@ html {
         background: rgba(0,0,0,0);
         border-bottom: 0px;
         padding: 20px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; 
+        font-size: 150%;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -22,6 +25,17 @@ html {
         /* Customize the look and feel of the collapsed top nav here */
         padding: 0;
     }
+
+    .ribbon {
+        height: 100%;
+        font-size: 125%;
+        padding-top: 150px;
+    }
+
+}
+
+p {
+    font-size: 120%;
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -33,7 +47,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #fff;
-    background: url(../images/portlandbw.jpg) no-repeat bottom center scroll;
+    background: url(../images/portlandbw.jpg) no-repeat center center scroll;
 /*    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -42,31 +56,50 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #000;
-    color: #fff;
+    /*height: 100%;*/
+    /*padding-top: 150px;*/
+    text-align: left;
+    background: #fff;
 }
 
 .projects-section {
-    height: 75%;
-    padding-top: 150px;
+    /*height: 100%;*/
+    /*padding-top: 150px;*/
     text-align: center;
     background: #fff;
 }
 
 .contact-section {
-    height: 100%;
-    padding-top: 150px;
+    /*height: 100%;*/
+    /*padding-top: 150px;*/
     text-align: center;
     background: #eee;
 }
 
 .ribbon {
-    font-size: 125%;
+    padding-top: 150px;
 }
 
 .ribbon h1 {
     font-size: 350%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.ribbon p {
+    font-size: 150%;
+}
+
+/*.seperator {
+    height: 50%;
+}*/
+
+.accent-background {
+    background: url(../images/wild-sea.png);
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.big-font {
+    font-size: 100%;
 }
