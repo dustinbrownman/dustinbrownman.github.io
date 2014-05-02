@@ -14,7 +14,7 @@ html {
         border-bottom: 0px;
         padding: 20px 0;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 700; 
+        font-weight: 700;
         font-size: 150%;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -32,6 +32,10 @@ html {
         padding-top: 150px;
     }
 
+    .bubble {
+        -webkit-filter: blur(0.7px);
+    }
+
 }
 
 p {
@@ -39,7 +43,7 @@ p {
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
@@ -105,7 +109,8 @@ of those sections to manage the look and feel of the site. */
 .accent-background {
     background: url(../images/cuadros.png);
     color: #34495e;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    /*color: white;*/
+    /*text-shadow: 1px 1px 1px rgba(0,0,0,0.3);*/
 }
 
 .big-font {
@@ -121,7 +126,8 @@ of those sections to manage the look and feel of the site. */
     line-height: 150px;
     padding: 10px;
     color: #34495e;
-    -webkit-filter: blur(1px);
+    /*-webkit-filter: blur(1px);*/
+    margin-top: 30px;
 }
 
 .bubble i {
